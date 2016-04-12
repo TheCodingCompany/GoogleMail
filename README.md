@@ -18,7 +18,7 @@ chmod 0777 public/data
 
 require_once("GoogleMail.php");
 
-$mail = new GoogleMail("my@gmail.com", "Very$ecretPassword");
+$mail = new CodingCompany\GoogleMail("my@gmail.com", "Very$ecretPassword");
 $mail->read_mailbox();
 
 ```
